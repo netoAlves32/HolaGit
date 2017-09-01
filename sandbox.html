@@ -1,0 +1,64 @@
+<html>
+
+<style>
+
+div:nth-child(odd) > p {
+	background-color: black;
+}
+
+div:nth-child(even)  {
+	background-color: beige;
+}
+
+
+p {
+	border-style:solid;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*
+p:not( #p4 ) {
+	background-color: red;
+}
+*/
+
+
+
+
+</style>
+
+<body>
+<div id="d1" class="a">
+	<p id="p1" class="b" >P1</p>
+</div>
+<div id="d2" class="b">
+	<p id="p2" class="c" >P2</p>
+	<p>p2.1</p>
+	<div>
+		<p>p2.2.1</p>
+	</div>
+	
+	<div>
+		<p>p2.2.2</p>
+	</div>
+</div>
+<div id="d3" class="a">
+	<p id="p3" class="b" >P3</p>
+</div>
+<div id="d4" class="c">
+	<p id="p4" class="a" >P4</p>
+</div>
+<div id="d5" class="c">
+	<p id="p5" class="d1" >P5</p>
+</div>
+</body>
+</html>
+
+
+
+
+

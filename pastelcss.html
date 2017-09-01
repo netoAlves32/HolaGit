@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Jugando con CSS - Desarrollo de Software en la Web</title>
+
+<style>
+
+div {
+	min-width: 80px;
+	border-width: 7px;
+	border-style: solid;
+	border-color: lightgreen;
+	margin: 5px;
+	/*  border: 7px solid green  */
+}
+
+#bloque1 {
+	display: block;
+}
+
+#bloque2 {
+	display: inline-block
+}
+
+#bloque2 div {
+	display: inline-block;
+}
+
+#bloque3 {
+	display: inline;
+}
+
+#bloque4 {
+	display: flex;
+}
+
+</style>
+
+  </head>
+  <body>
+  
+  <div id="bloque1">
+	Padre  display: block;
+	<div>Hijo 1</div>
+	<div>Hijo 2</div>
+	<div>Hijo 3</div>
+  
+  </div>
+
+  <div id="bloque2">
+	Padre display: inline-block;
+	<div>Hijo 1</div>
+	<div>Hijo 2</div>
+	<div>Hijo 3</div>
+  
+  </div>
+  
+   <div id="bloque3" >
+	Padre 	display: inline;
+
+	<div>Hijo 1</div>
+	<div>Hijo 2</div>
+	<div>Hijo 3</div>
+  
+  </div>
+
+   <div id="bloque4" >
+	Padre 	display: flex;
+
+	<div>Hijo 1</div>
+	<div>Hijo 2</div>
+	<div>Hijo 3</div>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  </body>
+</html>

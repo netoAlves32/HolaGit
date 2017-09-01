@@ -1,0 +1,15 @@
+body  {
+	font-family:Trebuchet MS;
+	font-size: 150%;
+	color: #1E1E1E;
+	margin-left: 120px;
+}	
+
+h1 {
+	font-style: Italic;
+	color: darkgray;
+	padding-top: 120px;
+	padding-bottom: 80px;
+	padding-left: 40px;
+	background-color: lightgray;
+}	

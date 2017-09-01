@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Jugando con CSS - Desarrollo de Software en la Web</title>
+
+<style>
+
+/* Regla de animación
+Use siempre la palabra clave @keyframes
+y un nombre para la regla a continuación
+
+ */
+@keyframes intermitente {
+	/* Estilo al comienzo de la animación */
+	0% {
+		background-color: yellow;
+	}
+	
+	/* Estilo con el que terminará la animación */
+	50% {
+		background-color: blue;
+	}
+	
+	100% {
+		background-color: red;
+	}
+}
+
+#animado {
+	/* Nombre de la regla que creamos previamente*/
+	animation-name: intermitente;
+	/* Tiempo durante el cual se hace la animación */
+	animation-duration: 8s;
+	/* Retraso del inicio después de cargada la pagina */
+	animation-delay: 3s;
+	/* Numero de veces que se repite la animacion */
+	animation-iteration-count: infinite;
+	
+	/* Retorna a la animación inicial */
+	animation-direction: alternate;
+	
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 100px;
+	background-color: black;
+	color: white;
+	font-family: Impact;
+	font-size: 200%;
+}
+
+</style>
+
+  </head>
+  <body>
+  
+  <div >
+	<div id="animado">Hola Mundo</div>
+  
+  </div>
+  
+  
+  </body>
+</html>

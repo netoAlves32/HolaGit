@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Document metadata -->
+  </head>
+  <body>
+    <!-- Document content -->
+	<h1>Hola Mundo!</h1>
+	<h2>Estoy aprendiendo HTML</h2>
+	<img src="https://lh3.googleusercontent.com/-J8I4Y6HpCZc/AAAAAAAAAAI/AAAAAAAAnxw/K9k04w6muHk/s60-p-rw-no/photo.jpg" /> 
+
+
+  </body>
+</html>
